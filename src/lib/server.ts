@@ -71,7 +71,7 @@ class Server {
             logger.debug(`-> ${ctx.request.method} ${ctx.request.url} request is not supported - ${request.remoteIP || "unknown"}`);
             // const failureBody = new FailureBody(new Exception(EX.SYSTEM_NOT_ROUTE_MATCHING, "Request is not supported"));
             // const response = new Response(failureBody);
-            const message = `[Incorrect request]: The correct request is POST -> /v1/chat/completions, and the current request is ${ctx.request.method} -> ${ctx.request.url} please correct`;
+            const message = `[Incorrect request]: The correct request is POST -> /nai/v1/chat/completions, and the current request is ${ctx.request.method} -> ${ctx.request.url} please correct`;
             logger.warn(message);
             const failureBody = new FailureBody(new Error(message));
             const response = new Response(failureBody);
