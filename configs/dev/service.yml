@@ -1,0 +1,6 @@
+# service name
+name: deepseek-free-api
+# Service binding host address
+host: '0.0.0.0'
+# Service binding port
+port: 8000
