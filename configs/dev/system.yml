@@ -1,0 +1,14 @@
+# Whether to enable request logs
+requestLog: true
+# Temporary directory path
+tmpDir: ./tmp
+# Log directory path
+logDir: ./logs
+# Log writing interval (milliseconds)
+logWriteInterval: 200
+# Log file validity period (milliseconds)
+logFileExpires: 2626560000
+# public directory path
+publicDir: ./public
+# Temporary file validity period (milliseconds)
+tmpFileExpires: 86400000
