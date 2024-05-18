@@ -6,7 +6,7 @@ import chat from '@/api/controllers/chat.ts';
 
 export default {
 
-    prefix: '/v1/chat',
+    prefix: '/nai/v1/chat',
 
     post: {
 
